@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="css/admin.css">
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Welcome, <%= user.username %>!</h1>
+  
+  <h2>User List</h2>
+  <ul>
+    <% users.forEach(user => { %>
+      <li>
+        <strong><%= user.username %></strong> - <%= user.email %> - Role: <%= user.role %>
+
+        <% if (user.role === 'user') { %>
+          <p><strong>Description:</strong> <%= user.description %></p>
+        <% } %>
+
+        <% if (user.role !== 'admin' && user.role !== 'moderator') { %>
+          <form action="/admin/user/<%= user.id %>/description" method="post">
+            <label for="newDescription">Update Description:</label>
+            <textarea id="newDescription" name="description" rows="4" cols="50" placeholder="Enter new description"></textarea><br>
+            <button type="submit">Update Description</button>
+          </form>
+        <% } %>
+
+
+        <form action="/admin/update-role" method="post" class="role-form">
+          <input type="hidden" name="userId" value="<%= user.id %>">
+          <select name="role">
+            <option value="admin" <% if (user.role === 'admin') { %>selected<% } %>>Admin</option>
+            <option value="moderator" <% if (user.role === 'moderator') { %>selected<% } %>>Moderator</option>
+            <option value="user" <% if (user.role === 'user') { %>selected<% } %>>User</option>
+          </select>
+          <button type="submit">Change Role</button>
+        </form>
+        <form action="/admin/delete-user" method="post" class="delete-form">
+          <input type="hidden" name="userId" value="<%= user.id %>">
+          <button type="submit" class="delete-button">Delete User</button>
+        </form>
+      </li>
+    <% }); %>
+  </ul>
+
+  <center><a href="/logout">Logout</a></center><br>
+</body>
+</html>

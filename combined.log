@@ -1,0 +1,71 @@
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"User adil logged in at 2024-02-29T21:23:34.471Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"User someone registered at 2024-02-29T21:25:23.629Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"User adil logged in at 2024-02-29T21:27:28.937Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"function authorizeRole(allowedRoles) {\r\n  return (req, res, next) => {\r\n    const userRole = req.session.user ? req.session.user.role : null;\r\n\r\n    if (allowedRoles.includes(userRole)) {\r\n      return next();\r\n    }\r\n\r\n    res.status(403).send('Access Forbidden: You do not have permission to access this resource.');\r\n  };Array\r\n} adil logged in at 2024-02-29T21:29:51.775Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-02-29T21:31:23.545Z"}
+{"level":"info","message":"Admin updated role for user with ID 17 to moderator at 2024-02-29T21:31:33.993Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-02-29T21:32:02.873Z"}
+{"level":"error","message":"Error updating role for user with ID 17: username is not defined"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-02-29T21:33:08.721Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-02-29T21:37:15.351Z"}
+{"level":"info","message":"Admin updated role for user with ID 17 to moderator at 2024-02-29T21:37:20.399Z"}
+{"level":"info","message":"Admin deleted user with ID 17 at 2024-02-29T21:37:31.550Z"}
+{"level":"info","message":"moder logged in at 2024-02-29T21:37:42.683Z"}
+{"level":"info","message":"Moderator banned user with ID 18 at 2024-02-29T21:37:45.802Z"}
+{"level":"info","message":"Moderator unbanned user with ID 18 at 2024-02-29T21:37:56.010Z"}
+{"level":"info","message":"someone logged in at 2024-02-29T21:38:13.965Z"}
+{"level":"info","message":"someone logged in at 2024-02-29T21:40:41.056Z"}
+{"level":"info","message":"adil logged in at 2024-02-29T21:41:38.812Z"}
+{"level":"info","message":"Admin updated description for user with ID 18 at 2024-02-29T21:41:56.565Z"}
+{"level":"info","message":"Admin updated role for user with ID 18 to moderator at 2024-02-29T21:42:06.568Z"}
+{"level":"info","message":"Admin deleted user with ID 18 at 2024-02-29T21:42:27.125Z"}
+{"level":"info","message":"Admin deleted user with ID 11 at 2024-02-29T21:42:36.791Z"}
+{"level":"info","message":"backDev registered at 2024-02-29T21:42:50.766Z"}
+{"level":"info","message":"someone registered at 2024-02-29T21:43:12.632Z"}
+{"level":"info","message":"someone logged in at 2024-02-29T21:43:17.936Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-02-29T22:07:50.543Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-03-01T04:14:44.967Z"}
+{"level":"info","message":"Server is running at http://localhost:3000"}
+{"level":"info","message":"someone logged in at 2024-03-01T04:48:03.557Z"}
+{"level":"info","message":"adil logged in at 2024-03-01T04:48:26.715Z"}
+{"level":"info","message":"someone logged in at 2024-03-01T04:48:39.427Z"}
+{"level":"info","message":"adil logged in at 2024-03-01T04:49:01.039Z"}
+{"level":"info","message":"Admin updated description for user with ID 20 at 2024-03-01T04:49:30.458Z"}
+{"level":"info","message":"someone logged in at 2024-03-01T04:49:38.947Z"}
+{"level":"info","message":"adil logged in at 2024-03-01T04:49:55.748Z"}
+{"level":"info","message":"Server is running at https://localhost:3000"}
+{"level":"info","message":"adil logged in at 2024-03-01T05:06:18.641Z"}
+{"level":"info","message":"Server is running at https://localhost:3000"}
+{"level":"info","message":"Server is running at https://localhost:3000"}
+{"level":"info","message":"someone logged in at 2024-03-01T05:46:26.865Z"}
+{"level":"info","message":"brother logged in at 2024-03-01T05:47:36.815Z"}
+{"level":"info","message":"adil logged in at 2024-03-01T05:47:44.446Z"}
+{"level":"info","message":"Admin updated role for user with ID 19 to user at 2024-03-01T05:48:09.887Z"}
+{"level":"info","message":"Admin updated role for user with ID 19 to moderator at 2024-03-01T05:48:27.425Z"}
+{"level":"info","message":"Admin updated description for user with ID 20 at 2024-03-01T05:49:00.809Z"}
+{"level":"info","message":"brother logged in at 2024-03-01T05:49:11.257Z"}
+{"level":"info","message":"moder logged in at 2024-03-01T05:50:36.549Z"}
+{"level":"info","message":"Moderator banned user with ID 20 at 2024-03-01T05:50:40.129Z"}
+{"level":"info","message":"brother logged in at 2024-03-01T05:50:50.071Z"}
+{"level":"info","message":"moder logged in at 2024-03-01T05:50:57.975Z"}
+{"level":"info","message":"Moderator unbanned user with ID 20 at 2024-03-01T05:50:58.923Z"}
+{"level":"info","message":"brother logged in at 2024-03-01T05:51:08.061Z"}
+{"level":"info","message":"Server is running at https://localhost:3000"}
